@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "updated_at": "2026-04-01T12:00:00Z",
+    "message": "Initial configuration"
+  },
+  "system": {
+    "min_allowable_version": "1.0.0",
+    "maintenance_mode": false,
+    "user_message": "Servers are up and running."
+  },
+  "mqtt": {
+    "broker": "bfd1e1e6.ala.eu-central-1.emqxsl.com",
+    "port": 8883,
+    "use_ssl": true
+  },
+  "firmware": {
+    "latest_version": "1.0.0",
+    "url": "https://lovelamps.name/firmware/firmware_v1.0.0.bin",
+    "force_update": false
+  }
+}
