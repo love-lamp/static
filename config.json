@@ -14,8 +14,8 @@
     "use_ssl": true
   },
   "firmware": {
-    "latest_version": "1.0.0",
-    "url": "https://lovelamps.name/firmware/firmware_v1.0.0.bin",
+    "latest_version": "0.0.1",
+    "url": "https://github.com/love-lamp/static/releases/download/v0.0.1/firmware-v0.0.1.bin",
     "force_update": false
   }
 }
