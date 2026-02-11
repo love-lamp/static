@@ -23,6 +23,16 @@
       "version": "v0.0.2",
       "url": "https://github.com/love-lamp/static/releases/download/v0.0.2/firmware-love_lamp_mini-v0.0.2.bin",
       "force": false
+    },
+    "love_lamp_classic": {
+      "version": "v0.0.3",
+      "url": "https://github.com/love-lamp/static/releases/download/v0.0.3/firmware-love_lamp_classic-v0.0.3.bin",
+      "force": false
+    },
+    "love_lamp_mini": {
+      "version": "v0.0.3",
+      "url": "https://github.com/love-lamp/static/releases/download/v0.0.3/firmware-love_lamp_mini-v0.0.3.bin",
+      "force": false
     }
   }
 }
