@@ -15,13 +15,13 @@
   },
   "firmware": {
     "love_lamp_classic": {
-      "version": "v0.0.6",
-      "url": "https://github.com/love-lamp/static/releases/download/v0.0.6/firmware-love_lamp_classic-v0.0.6.bin",
+      "version": "v0.0.8",
+      "url": "https://github.com/love-lamp/static/releases/download/v0.0.8/firmware-love_lamp_classic-v0.0.8.bin",
       "force": false
     },
     "love_lamp_mini": {
-      "version": "v0.0.6",
-      "url": "https://github.com/love-lamp/static/releases/download/v0.0.6/firmware-love_lamp_mini-v0.0.6.bin",
+      "version": "v0.0.8",
+      "url": "https://github.com/love-lamp/static/releases/download/v0.0.8/firmware-love_lamp_mini-v0.0.8.bin",
       "force": false
     }
   }
