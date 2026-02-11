@@ -14,9 +14,6 @@
     "use_ssl": true
   },
   "firmware": {
-    "url": "https://github.com/love-lamp/static/releases/download/v0.0.1/firmware.bin",
-    "version": "v0.0.1",
-    "force": false,
     "love_lamp_classic-v0.0.2": {
       "version": "v0.0.2",
       "url": "https://github.com/love-lamp/static/releases/download/v0.0.2/firmware-love_lamp_classic-v0.0.2.bin",
