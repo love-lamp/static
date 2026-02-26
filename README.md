@@ -1,59 +1,24 @@
-# Love Lamps — Device Configuration Hub
+# Lumee Smart Lamp - Static Assets & Configurations
 
-This repository serves as the centralized static hosting infrastructure for **Love Lamps** IoT devices. It provides remote configuration, feature flags, and Over-The-Air (OTA) firmware updates.
+This repository hosts public static files, remote configurations, and legal documents for the **Lumee** smart ambient lamp ecosystem (including the React Native mobile application and ESP32 firmware).
 
-The infrastructure is hosted via **GitHub Pages** to ensure high availability and low latency globally.
+## 📂 Repository Contents
 
-## 📡 Service Endpoints
+* **Privacy Policy** - The official Privacy Policy required for the Apple App Store and Google Play Store compliance. 
+* **Remote Configuration** - JSON configuration files that the Lumee hardware fetches securely over HTTPS to check for Over-The-Air (OTA) updates, MQTT broker settings, and new firmware versions.
+* **Firmware Binaries** - Hosted `.bin` files for ESP32 OTA updates.
+* **Other Assets** - Various public assets, icons, or documentation required by the application.
 
-| Resource | Endpoint URL                              | Description |
-| :--- |:------------------------------------------| :--- |
-| **Main Config** | `https://ota.lovelamps.name/config.json`  | JSON configuration fetched by devices on boot. |
-| **Firmware** | `https://ota.lovelamps.name/firmware/` | Directory containing versioned binary files (`.bin`). |
+## 🌐 Hosted via GitHub Pages
 
-## ⚙️ Configuration Structure (`config.json`)
+These files are served publicly via GitHub Pages to ensure secure (SSL/HTTPS) and fast access for both mobile app users and IoT hardware.
 
-The device configuration file adheres to the following JSON schema:
+* **Privacy Policy:** [Insert your GitHub Pages link here, e.g., https://love-lamp.github.io/static/privacy-policy]
+* **OTA Config:** [Insert your config link here, e.g., https://love-lamp.github.io/static/config.json]
 
-```json
-{
-  "meta": {
-    "updated_at": "ISO 8601 Timestamp",
-    "message": "Admin notes or user-facing motd"
-  },
-  "system": {
-    "min_allowable_version": "1.0.0",
-    "maintenance_mode": false
-  },
-  "mqtt": {
-    "broker": "broker-address.example.com",
-    "port": 8883,
-    "use_ssl": true
-  },
-  "firmware": {
-    "latest_version": "1.0.0",
-    "url": "https://ota.lovelamps.name/firmware/fw_v1.0.0.bin",
-    "force_update": false
-  }
-}
-```
+## 🔒 Privacy First
 
-## 🚀 Deployment Workflow
-To update the configuration for the device fleet:
-1. Modify config.json in the main branch.
-2. Commit and push the changes:
-```bash
-git commit -am "chore: update mqtt broker address"
-git push origin main
-```
-3. GitHub Actions (Pages) will automatically deploy the changes.
-4. Propagation time: Updates typically propagate within 60 seconds. Devices will pick up the new config upon their next reboot or scheduled sync.
-
-## ⚠️ Security Notice
-- This repository is **PUBLIC**.
-- **DO NOT** store sensitive credentials (passwords, private keys, tokens) in this repository.
-- Only public endpoints and non-sensitive configuration parameters should be hosted here.
+Lumee is built with privacy in mind. The app and the lamp communicate locally. We do not collect, store, or transmit any personally identifiable information, location data, or usage analytics. Please read the full [Privacy Policy](privacy-policy.md) for more details.
 
 ---
-
-© 2026 Love Lamps Team. All rights reserved.
+*Developed by Maksym Stoiakevych for the Lumee smart ecosystem.*
