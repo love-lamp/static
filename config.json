@@ -14,5 +14,10 @@
     "use_ssl": true
   },
   "firmware": {
+    "blink_genesis": {
+      "version": "v0.0.1",
+      "url": "https://github.com/belinked-iot/static/releases/download/v0.0.1/firmware-blink_genesis-v0.0.1.bin",
+      "force": false
+    }
   }
 }
