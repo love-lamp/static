@@ -13,8 +13,8 @@ This repository hosts public static files, remote configurations, and legal docu
 
 These files are served publicly via GitHub Pages to ensure secure (SSL/HTTPS) and fast access for both mobile app users and IoT hardware.
 
-* **Privacy Policy:** [Insert your GitHub Pages link here, e.g., https://love-lamp.github.io/static/privacy-policy]
-* **OTA Config:** [Insert your config link here, e.g., https://love-lamp.github.io/static/config.json]
+* **Privacy Policy:** [Insert your GitHub Pages link here, e.g., https://belinked.click/privacy-policy]
+* **OTA Config:** [Insert your config link here, e.g., https://belinked.click/config.json]
 
 ## 🔒 Privacy First
 
