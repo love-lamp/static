@@ -15,8 +15,8 @@
   },
   "firmware": {
     "blink_genesis": {
-      "version": "v0.0.3",
-      "url": "https://github.com/belinked-iot/static/releases/download/v0.0.3/firmware-blink_genesis-v0.0.3.bin",
+      "version": "v0.0.4",
+      "url": "https://github.com/belinked-iot/static/releases/download/v0.0.4/firmware-blink_genesis-v0.0.4.bin",
       "force": false
     }
   }
